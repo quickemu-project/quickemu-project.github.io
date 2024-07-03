@@ -1,4 +1,42 @@
 baseURL = 'https://quickemu-project.github.io/'
-languageCode = 'en-us'
+languageCode = "en"
+defaultContentLanguage = "en"
 title = 'Quickemu'
 theme = 'hugo-coder'
+paginate = 6
+enableEmoji = true
+
+[params]
+  author = "Quickemu Project"
+  info = "Quickly create and run optimised Windows, macOS and Linux virtual machines"
+  description = "Quickly create and run optimised Windows, macOS and Linux virtual machines"
+  keywords = "qemu,quickemu,quickget,quickgui,quicktest,virtual machine,vm,macos,windows,linux,bsd"
+  avatarurl = "/img/avatar.png"
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+  since = 2021
+  enableTwemoji = true
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[[params.social]]
+  name = "GitHub"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/quickemu-project/"
+[[params.social]]
+  name = "Discord"
+  icon = "fa-brands fa-discord fa-2x"
+  weight = 1
+  url = "https://wimpysworld.io/discord"
+[[params.social]]
+  name = "Mastodon"
+  icon = "fa-brands fa-mastodon fa-2x"
+  weight = 1
+  url = "https://fosstodon.org/@wimpy"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 1
+  url = "https://twitter.com/m_wimpress/"
