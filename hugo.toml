@@ -1,0 +1,4 @@
+baseURL = 'https://quickemu-project.github.io/'
+languageCode = 'en-us'
+title = 'Quickemu'
+theme = 'hugo-coder'
